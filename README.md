@@ -25,7 +25,7 @@ $ heroku login
 2. Clone this project:
 
 ```
-$ git clone 
+$ go get github.com/toVersus/slack-kusar
 $ cd slack-kusar
 ```
 
@@ -38,7 +38,6 @@ $ heroku create
 4. Deploy this project:
 
 ```
-$ go get github.com/toversus/slack-kusar
 $ git push heroku master
 ```
 
