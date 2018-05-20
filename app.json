@@ -1,0 +1,9 @@
+{
+  "name": "slack-kusar",
+  "description": "Slack Bot to List Up Gist Weekly Contributions",
+  "keywords": [
+    "go",
+    "gist",
+    "slack"
+  ]
+}
