@@ -1,5 +1,5 @@
 # Slack Kusar
-Slack Kusar is Slack bot to list the Gist activities. The concept of this bot was inspired by [go-slack-interactive @tcnksm](https://github.com/tcnksm/go-slack-interactive).
+Slack Kusar is Slack bot to list the Gist activities. The concept of this bot was fully inspired by [go-slack-interactive @tcnksm](https://github.com/tcnksm/go-slack-interactive).
 
 ![](static/kusar-demo.gif)
 
@@ -11,6 +11,7 @@ export BOT_ID="U***"             // you can get this after create a bot user (vi
 export BOT_TOKEN="xoxb-***"      // you can get this after create a bot user (via slack app management console)
 export VERIFICATION_TOKEN="***"  // you can get this after enable interactive message (via slack app management console)
 export CHANNEL_ID="C***"         // bot reacts only this channel
+export GIST_ACCESS_TOKEN=*** // you can get this on Github personal access token
 ```
 
 ### For Heroku user...
@@ -45,7 +46,7 @@ $ git push heroku master
 
 6. Configure request URL on Intaractive Components: https://api.slack.com/interactive-messages
 
-> e.g. https://<Heroku Domain>/interaction
+> e.g. https://\<Heroku Domain\>/interaction
 
 7. Invite app user to the channel: https://get.slack.help/hc/en-us/articles/201980108-Invite-members-to-a-channel
 
